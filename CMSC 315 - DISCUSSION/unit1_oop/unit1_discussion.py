@@ -24,8 +24,48 @@ from copy import copy, deepcopy
 #
 # Replace the pass statement with your implementation.
 
-class ParentClass:
-    pass
+# A helldiver is a super citizen
+# all supercitizens are free
+
+class SuperCitizen:
+    def __init__(self, name: str, citizenClass: str, requisition_slips: int, free_status: boolean, age: int, rifle_training: bool):
+
+        #assigns name
+        if name: self.name = name
+        else: self.name = ""
+
+        #assigns class
+        if  citizenClass: self.citizenClass = citizenClass
+        else: self.citizenClass = ""
+
+        #All supercitizens are free
+        if requisition_slips: self.requisition_slips = requisition_slips
+
+        #if in debt over 50k, citizen is no longer free
+        if requisition_slips > -50000: self.free_status = free_status
+        else: self.free_status = false
+
+        if age > 0: self.age = age
+        else: age = ""
+
+        if rifle_training: self.rifle_training = "RIFLE TRAINED"
+        else: rifle_training = "UNTRAINED"
+
+        if free_status: self.free_status = "FREE TO VOTE"
+        else: self.free_status = "=== ! CAUTION ! ===\n  CITIZEN IS NOT FREE TO VOTE"
+
+    def display_citizen(self):
+        print(
+            f"Citizen Log:{self.name}\n==========\nCitizen Class:{self.citizenClass}\n"
+            f"age: {self.age}\nRequisition Balance: {self.requisition_slips}"
+            f"Rifle Training status: {self.rifle_training}"
+            f"Freedom Status: {self.free_status}"
+        )
+    def create_citizen_entry(self):
+        self.name = input("Welcome to the citizen log.\nEnter citizen name below to begin.")
+
+
+
 
 
 # TODO 2:
@@ -40,8 +80,10 @@ class ParentClass:
 #
 # Replace the pass statement with your implementation.
 
-class ChildClass(ParentClass):
-    pass
+class Helldiver(SuperCitizen):
+    def __init__(self, name: str, citizenClass: str, requisition_slips: int, free_status: boolean, age: int, rifle_training: bool, SpecialWeaponsTrained: bool):
+        super().__init__(name, age, citizenClass, requisition_slips, free_status, rifle_training)
+        self.SpecialWeaponsTrained = SpecialWeaponsTrained
 
 
 # TODO 3:
@@ -90,6 +132,7 @@ def main():
     print("=== Unit 1 OOP Assignment ===")
 
     print("\nTODO: Create and test your parent object")
+    Supercitizen_John = SuperCitizen
 
     print("\nTODO: Create and test your child object")
 
