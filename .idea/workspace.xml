@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca9cd922-ef5c-41f8-904d-28023d1d58b0" name="Changes" comment="Initial course repository setup">
+    <list default="true" id="ca9cd922-ef5c-41f8-904d-28023d1d58b0" name="Changes" comment="Started constructing the beginning classes and deciding the direction of the project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit1_oop/unit1_discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit1_oop/unit1_discussion.py" afterDir="false" />
     </list>
@@ -115,8 +115,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="62bc0b59-0042-4d6d-990d-2f1427dc7c7a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="62bc0b59-0042-4d6d-990d-2f1427dc7c7a">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial course repository setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial course repository setup" />
+    <MESSAGE value="Started constructing the beginning classes and deciding the direction of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started constructing the beginning classes and deciding the direction of the project" />
   </component>
 </project>
