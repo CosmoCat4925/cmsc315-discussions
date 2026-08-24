@@ -18,53 +18,74 @@ class Stack:
     def __init__(self):
         # TODO (Student): Create the internal data structure for the stack.
         # Hint: A Python list can be used to store stack values.
-        pass
+        # using a standard python list
+        self._items = []
 
     def push(self, value):
         # TODO (Student): Add value to the stack.
         # Add a short comment explaining why this operation supports LIFO behavior.
-        pass
+        # This supports LIFO because it adds newest items to the end of the list
+        self._items.append(value)
 
     def pop(self):
         # TODO (Student): Remove and return the most recently added value.
         # Improve or explain empty-stack handling.
         # What should happen if the stack is empty?
-        pass
+        # returns warning message if stack is empty to prevent indexing error
+        if self.is_empty():
+            print("Warning: Attempted to pop from an empty stack")
+            return None
+        # removes and returns top of stack
+        return self._items.pop()
 
     def peek(self):
         # TODO (Student): Return the top value without removing it.
         # Add a comment explaining what peek does.
-        pass
+        # returns the top item without changing the list
+        if self.is_empty():
+            print("Warning: Attempted to peek at an empty stack.")
+            return None
+        return self._items[-1]
 
     def is_empty(self):
         # TODO (Student): Return True if the stack has no values.
-        pass
+        return len(self._items) == 0
 
 
 class Queue:
     def __init__(self):
         # TODO (Student): Create the internal data structure for the queue.
         # Hint: collections.deque is useful for efficient queue operations.
-        pass
+        # using collections.deque provides O(1) appends and pops from both ends
+        self._items = deque()
 
     def enqueue(self, value):
         # TODO (Student): Add value to the back of the queue.
         # Add a short comment explaining why this operation supports FIFO behavior.
-        pass
+        # this supports FIFO, earliest value remains on left
+        self._items.append(value)
 
     def dequeue(self):
         # TODO (Student): Remove and return the value from the front of the queue.
         # Explain or improve empty-queue handling.
-        pass
+        # handle empty queue edge case
+        if self.is_empty():
+            print("Warning: Attempted to deque from an empty queue.")
+            return None
+        # pop left removes and returns front item in O(1) time
+        return self._items.popleft()
 
     def front(self):
         # TODO (Student): Return the front value without removing it.
         # Add a comment explaining what front returns.
-        pass
+        if self.is_empty():
+            print("Warning: Attempted to view the front of an empty queue.")
+            return None
+        return self._items[0]
 
     def is_empty(self):
         # TODO (Student): Return True if the queue has no values.
-        pass
+        return len(self._items) == 0
 
 
 def main():

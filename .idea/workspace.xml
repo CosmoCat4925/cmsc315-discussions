@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9cd922-ef5c-41f8-904d-28023d1d58b0" name="Changes" comment="Finalizing code development to indclude all of the required rubric">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit1_oop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit1_oop/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit2_stacks_queues/unit2_discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit2_stacks_queues/unit2_discussion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="24" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,10 +27,73 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/cosmocat4925/cmsc315-discussions.git&quot;,
-    &quot;accountId&quot;: &quot;a4d02417-c6ae-43c0-bce4-bf62b0ce3cea&quot;
+    &quot;url&quot;: &quot;https://github.com/CosmoCat4925/cmsc315-discussions&quot;,
+    &quot;accountId&quot;: &quot;7733637a-2bde-4611-9f6d-7acc308cf169&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000000937" />
+      <entry key="MS500" value="1.0043164707491907" />
+      <entry key="S2" value="1.4311135657219625" />
+      <entry key="S5" value="2.1286828338817445" />
+      <entry key="S10" value="3.1389483668386005" />
+      <entry key="S30" value="10.893512561240449" />
+      <entry key="S60" value="26.088607421823003" />
+      <entry key="M2" value="55.99016161085476" />
+      <entry key="M5" value="126.20513514293786" />
+      <entry key="M10" value="189.3658219413558" />
+      <entry key="M15" value="221.47679364523998" />
+      <entry key="M30" value="262.10125021771336" />
+      <entry key="H1" value="286.43378109766496" />
+      <entry key="H2" value="299.783098596729" />
+      <entry key="H4" value="306.77914792308894" />
+      <entry key="D1" value="312.7805651436087" />
+      <entry key="W1" value="313.8253995468555" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.096107023182237E-4" />
+      <entry key="MS500" value="0.1876663586744982" />
+      <entry key="S2" value="1.0743648267087542" />
+      <entry key="S5" value="1.9560072968005628" />
+      <entry key="S10" value="3.0190382137361294" />
+      <entry key="S30" value="10.781893593538875" />
+      <entry key="S60" value="25.976958406460707" />
+      <entry key="M2" value="55.882630008179916" />
+      <entry key="M5" value="126.12126116643586" />
+      <entry key="M10" value="189.309095918557" />
+      <entry key="M15" value="221.43451110782956" />
+      <entry key="M30" value="262.0774754419868" />
+      <entry key="H1" value="286.42114697528774" />
+      <entry key="H2" value="299.7765824716479" />
+      <entry key="H4" value="306.77583845474203" />
+      <entry key="D1" value="312.7800062821477" />
+      <entry key="W1" value="313.82531952922903" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
   &quot;fromUser&quot;: false
@@ -34,23 +103,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.unit1_discussion.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.unit1_discussion.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Freed\IdeaProjects\cmsc315-discussion" />
@@ -72,7 +149,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="~\AppData\Local\Python\bin\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit1_oop" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -88,11 +164,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.unit1_discussion" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
