@@ -113,6 +113,37 @@ print("      test popping from an empty stack,")
 print("      test peeking at an empty stack,")
 print("      and verify a single-item stack becomes empty after removal.")
 
+#creating a stack
+stack = Stack()
+
+# adding 4 items to stack
+print("\n\nPushing elements onto stack: A, B, C, D")
+for item in ["A", "B", "C", "D"]:
+    stack.push(item)
+
+# Demonstrating LIFO behavior
+print(f"Top element via peek(): {stack.peek()}")
+print("Popping elements off the stack (LIFO Order - Last In, First Out):")
+while not stack.is_empty():
+    print(f"Popped: {stack.pop()}")
+
+# Empty stack edge cases
+print("\n--- Edge Case Testing (Empty Stack)---")
+print(f"Popping from empty stack: {stack.pop()}")
+print(f"Peeking at empty stack: {stack.peek}")
+
+# Single item test
+print("\n--- Edge Case Testing (Single Item Stack) ---")
+single_stack = Stack()
+single_stack.push("Only Child")
+print(f"Initial single item stack empty status: {single_stack.is_empty()}")
+print(f"Removed item: {single_stack.pop()}")
+print(f"Is single item stack empty now? {single_stack.is_empty()}")
+
+
+
+
+
 # ===============================
 # TODO (Student): QUEUE DEMO
 # ===============================

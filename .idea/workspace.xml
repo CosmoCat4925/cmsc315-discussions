@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9cd922-ef5c-41f8-904d-28023d1d58b0" name="Changes" comment="Finalizing code development to indclude all of the required rubric">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ca9cd922-ef5c-41f8-904d-28023d1d58b0" name="Changes" comment="Stting up Classes for Stack and Queue">
       <change beforePath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit2_stacks_queues/unit2_discussion.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit2_stacks_queues/unit2_discussion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,23 +36,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000000937" />
-      <entry key="MS500" value="1.0043164707491907" />
-      <entry key="S2" value="1.4311135657219625" />
-      <entry key="S5" value="2.1286828338817445" />
-      <entry key="S10" value="3.1389483668386005" />
-      <entry key="S30" value="10.893512561240449" />
-      <entry key="S60" value="26.088607421823003" />
-      <entry key="M2" value="55.99016161085476" />
-      <entry key="M5" value="126.20513514293786" />
-      <entry key="M10" value="189.3658219413558" />
-      <entry key="M15" value="221.47679364523998" />
-      <entry key="M30" value="262.10125021771336" />
-      <entry key="H1" value="286.43378109766496" />
-      <entry key="H2" value="299.783098596729" />
-      <entry key="H4" value="306.77914792308894" />
-      <entry key="D1" value="312.7805651436087" />
-      <entry key="W1" value="313.8253995468555" />
+      <entry key="MS100" value="1.0004143393711717" />
+      <entry key="MS500" value="1.2998712992148427" />
+      <entry key="S2" value="3.0555502858460617" />
+      <entry key="S5" value="5.365574596138861" />
+      <entry key="S10" value="8.401645492903508" />
+      <entry key="S30" value="19.179872865936517" />
+      <entry key="S60" value="33.0418071336758" />
+      <entry key="M2" value="56.83328477651295" />
+      <entry key="M5" value="119.17852820414787" />
+      <entry key="M10" value="203.3816681690867" />
+      <entry key="M15" value="259.8815062295406" />
+      <entry key="M30" value="345.79555079163424" />
+      <entry key="H1" value="405.2479478568835" />
+      <entry key="H2" value="440.4590788505569" />
+      <entry key="H4" value="459.6528808683072" />
+      <entry key="D1" value="476.5255134326758" />
+      <entry key="W1" value="479.50156150637133" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -75,23 +74,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.096107023182237E-4" />
-      <entry key="MS500" value="0.1876663586744982" />
-      <entry key="S2" value="1.0743648267087542" />
-      <entry key="S5" value="1.9560072968005628" />
-      <entry key="S10" value="3.0190382137361294" />
-      <entry key="S30" value="10.781893593538875" />
-      <entry key="S60" value="25.976958406460707" />
-      <entry key="M2" value="55.882630008179916" />
-      <entry key="M5" value="126.12126116643586" />
-      <entry key="M10" value="189.309095918557" />
-      <entry key="M15" value="221.43451110782956" />
-      <entry key="M30" value="262.0774754419868" />
-      <entry key="H1" value="286.42114697528774" />
-      <entry key="H2" value="299.7765824716479" />
-      <entry key="H4" value="306.77583845474203" />
-      <entry key="D1" value="312.7800062821477" />
-      <entry key="W1" value="313.82531952922903" />
+      <entry key="MS100" value="0.9663229329296817" />
+      <entry key="MS500" value="1.2891893543351287" />
+      <entry key="S2" value="3.0377621911695627" />
+      <entry key="S5" value="5.3014069250303635" />
+      <entry key="S10" value="8.2896195319165" />
+      <entry key="S30" value="19.046681737839446" />
+      <entry key="S60" value="32.91646631478024" />
+      <entry key="M2" value="56.71974194873492" />
+      <entry key="M5" value="119.08567109007308" />
+      <entry key="M10" value="203.30852875682208" />
+      <entry key="M15" value="259.82200595575165" />
+      <entry key="M30" value="345.7581875189921" />
+      <entry key="H1" value="405.2267719282364" />
+      <entry key="H2" value="440.44777334464567" />
+      <entry key="H4" value="459.6470354427591" />
+      <entry key="D1" value="476.52451122731173" />
+      <entry key="W1" value="479.5014176329342" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,6 +107,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.unit1_discussion.executor": "Run",
+    "Python.unit2_discussion.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -125,6 +125,9 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
@@ -140,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="unit1_discussion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="unit2_discussion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cmsc315-discussion" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,6 +152,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="~/IdeaProjects/cmsc315-discussions/.venv" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit1_oop" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -164,6 +168,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.unit2_discussion" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -211,6 +220,7 @@
     <MESSAGE value="Initial course repository setup" />
     <MESSAGE value="Started constructing the beginning classes and deciding the direction of the project" />
     <MESSAGE value="Finalizing code development to indclude all of the required rubric" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizing code development to indclude all of the required rubric" />
+    <MESSAGE value="Stting up Classes for Stack and Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stting up Classes for Stack and Queue" />
   </component>
 </project>
