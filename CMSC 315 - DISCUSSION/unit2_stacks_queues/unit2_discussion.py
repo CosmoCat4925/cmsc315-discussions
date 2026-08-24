@@ -107,63 +107,89 @@ def main():
     #    and verify the stack is empty afterward.
 
 
-print("\n=== STACK DEMO ===")
-print("TODO: Create a Stack object, demonstrate LIFO behavior,")
-print("      test popping from an empty stack,")
-print("      test peeking at an empty stack,")
-print("      and verify a single-item stack becomes empty after removal.")
+    print("\n=== STACK DEMO ===")
+    print("TODO: Create a Stack object, demonstrate LIFO behavior,")
+    print("      test popping from an empty stack,")
+    print("      test peeking at an empty stack,")
+    print("      and verify a single-item stack becomes empty after removal.")
 
-#creating a stack
-stack = Stack()
+    # 1. creating a stack
+    stack = Stack()
 
-# adding 4 items to stack
-print("\n\nPushing elements onto stack: A, B, C, D")
-for item in ["A", "B", "C", "D"]:
-    stack.push(item)
+    # 2. adding 4 items to stack
+    print("\nPushing elements onto stack: A, B, C, D")
+    for item in ["A", "B", "C", "D"]:
+        stack.push(item)
 
-# Demonstrating LIFO behavior
-print(f"Top element via peek(): {stack.peek()}")
-print("Popping elements off the stack (LIFO Order - Last In, First Out):")
-while not stack.is_empty():
-    print(f"Popped: {stack.pop()}")
+    # 3 & 4. Demonstrating LIFO behavior
+    print(f"Top element via peek(): {stack.peek()}")
+    print("Popping elements off the stack (LIFO Order - Last In, First Out):")
+    while not stack.is_empty():
+        print(f"Popped: {stack.pop()}")
 
-# Empty stack edge cases
-print("\n--- Edge Case Testing (Empty Stack)---")
-print(f"Popping from empty stack: {stack.pop()}")
-print(f"Peeking at empty stack: {stack.peek}")
+    # 5 & 6. Empty stack edge cases
+    print("\n--- Edge Case Testing (Empty Stack)---")
+    print(f"Popping from empty stack: {stack.pop()}")
+    print(f"Peeking at empty stack: {stack.peek}")
 
-# Single item test
-print("\n--- Edge Case Testing (Single Item Stack) ---")
-single_stack = Stack()
-single_stack.push("Only Child")
-print(f"Initial single item stack empty status: {single_stack.is_empty()}")
-print(f"Removed item: {single_stack.pop()}")
-print(f"Is single item stack empty now? {single_stack.is_empty()}")
-
-
+    # 7. Single item test
+    print("\n--- Edge Case Testing (Single Item Stack) ---")
+    single_stack = Stack()
+    single_stack.push("Only Child")
+    print(f"Initial single item stack empty status: {single_stack.is_empty()}")
+    print(f"Removed item: {single_stack.pop()}")
+    print(f"Is single item stack empty now? {single_stack.is_empty()}")
 
 
 
-# ===============================
-# TODO (Student): QUEUE DEMO
-# ===============================
-# Requirements:
-# 1. Create a Queue object.
-# 2. Add at least 4 values to the queue.
-# 3. Improve the print statements so they clearly explain what is happening.
-# 4. Demonstrate FIFO behavior.
-# 5. Show what happens when dequeue() is used on an empty queue.
-#
-# Edge Cases:
-# 6. Show what happens when front() is used on an empty queue.
-# 7. Create a queue with only one item, remove it,
-#    and verify the queue is empty afterward.
 
-print("\n=== QUEUE DEMO ===")
-print("TODO: Create a Queue object, demonstrate FIFO behavior,")
-print("      test dequeuing from an empty queue,")
-print("      test viewing the front of an empty queue,")
-print("      and verify a single-item queue becomes empty after removal.")
+
+    # ===============================
+    # TODO (Student): QUEUE DEMO
+    # ===============================
+    # Requirements:
+    # 1. Create a Queue object.
+    # 2. Add at least 4 values to the queue.
+    # 3. Improve the print statements so they clearly explain what is happening.
+    # 4. Demonstrate FIFO behavior.
+    # 5. Show what happens when dequeue() is used on an empty queue.
+    #
+    # Edge Cases:
+    # 6. Show what happens when front() is used on an empty queue.
+    # 7. Create a queue with only one item, remove it,
+    #    and verify the queue is empty afterward.
+
+    print("\n\n=== QUEUE DEMO ===")
+    print("TODO: Create a Queue object, demonstrate FIFO behavior,")
+    print("      test dequeuing from an empty queue,")
+    print("      test viewing the front of an empty queue,")
+    print("      and verify a single-item queue becomes empty after removal.")
+
+    # 1. Create a queue
+    queue = Queue()
+    # 2. Add at least 4 values to the queue
+    print("\nEnqueueing elements into queue: 10, 20, 30, 40")
+    for item in [10, 20, 30, 40]:
+        queue.enqueue(item)
+
+    # 3 & 4. Demonstrate FIFO behavior
+    print(f"Front element via front(): {queue.front()}")
+    print("Dequeuing elements from the queue (FIFO Order - First In, First Out):")
+    while not queue.is_empty():
+        print(f"Dequeued: {queue.dequeue()}")
+
+    # 5 & 6. Empty queue edge cases
+    print("\n--- Edge Case Testing (Empty Queue) ---")
+    print(f"Dequeuing from empty queue: {queue.dequeue()}")
+    print(f"Peeking front of empty queue: {queue.front()}")
+
+    # 7. Single item test
+    print("\n--- Edge Case Testing (Single Item Queue) ---")
+    single_queue = Queue()
+    single_queue.enqueue("Solo Item")
+    print(f"Initial single item queue empty status: {single_queue.is_empty()}")
+    print(f"Removed item: {single_queue.dequeue()}")
+    print(f"Is single item queue empty now? {single_queue.is_empty()}")
 
 if __name__ == "__main__":
     main()
