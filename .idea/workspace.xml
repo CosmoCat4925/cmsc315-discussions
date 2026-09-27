@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9cd922-ef5c-41f8-904d-28023d1d58b0" name="Changes" comment="demonstration of stack class">
-      <change beforePath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit2_stacks_queues/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CMSC 315 - DISCUSSION/unit2_stacks_queues/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ca9cd922-ef5c-41f8-904d-28023d1d58b0" name="Changes" comment="Answered Reflection Questions in README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,61 +34,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000034603896" />
-      <entry key="S2" value="1.0293972942888325" />
-      <entry key="S5" value="1.974069968507967" />
-      <entry key="S10" value="5.667946216657225" />
-      <entry key="S30" value="24.113581130805397" />
-      <entry key="S60" value="47.499644216241876" />
-      <entry key="M2" value="84.16401711702491" />
-      <entry key="M5" value="156.64997794941453" />
-      <entry key="M10" value="240.30682407813578" />
-      <entry key="M15" value="311.0390208152935" />
-      <entry key="M30" value="456.69391218479444" />
-      <entry key="H1" value="589.5154342186192" />
-      <entry key="H2" value="681.7570381894752" />
-      <entry key="H4" value="736.4811756838544" />
-      <entry key="D1" value="787.2367608171865" />
-      <entry key="W1" value="796.4493693694254" />
+      <entry key="MS100" value="1.0291572838838563" />
+      <entry key="MS500" value="1.5240024035037028" />
+      <entry key="S2" value="3.1198821603930207" />
+      <entry key="S5" value="5.799958174113753" />
+      <entry key="S10" value="8.222537680851975" />
+      <entry key="S30" value="18.256226782357253" />
+      <entry key="S60" value="38.26907103013463" />
+      <entry key="M2" value="75.15188130561737" />
+      <entry key="M5" value="151.85318693867492" />
+      <entry key="M10" value="239.11224239598613" />
+      <entry key="M15" value="311.5652766648415" />
+      <entry key="M30" value="460.20592461321695" />
+      <entry key="H1" value="596.0159000671267" />
+      <entry key="H2" value="690.5707521479146" />
+      <entry key="H4" value="746.7584408686524" />
+      <entry key="D1" value="798.929594852116" />
+      <entry key="W1" value="808.4049686315025" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="4.457565867622913E-212" />
-      <entry key="S5" value="2.8816359111292205E-85" />
-      <entry key="S10" value="5.368087099823525E-43" />
-      <entry key="S30" value="8.127179489383569E-15" />
-      <entry key="S60" value="9.015087070785031E-8" />
-      <entry key="M2" value="3.002513458884898E-4" />
-      <entry key="M5" value="0.03899365861136338" />
-      <entry key="M10" value="0.1974681204938238" />
-      <entry key="M15" value="0.33910276297203207" />
-      <entry key="M30" value="0.5823253068277463" />
-      <entry key="H1" value="0.7631024222394722" />
-      <entry key="H2" value="0.8735573376942506" />
-      <entry key="H4" value="0.9346428931384706" />
-      <entry key="D1" value="0.9887980880831825" />
-      <entry key="W1" value="0.9983919905414873" />
+      <entry key="S2" value="2.1973318689460896E-219" />
+      <entry key="S5" value="3.4415831109624716E-88" />
+      <entry key="S10" value="1.8551504281223164E-44" />
+      <entry key="S30" value="2.6472383372196245E-15" />
+      <entry key="S60" value="5.145132007266301E-8" />
+      <entry key="M2" value="2.2682883430609648E-4" />
+      <entry key="M5" value="0.03485614105016771" />
+      <entry key="M10" value="0.1866979942317744" />
+      <entry key="M15" value="0.32665785162414873" />
+      <entry key="M30" value="0.5715398950415846" />
+      <entry key="H1" value="0.7560025760813172" />
+      <entry key="H2" value="0.8694840861575974" />
+      <entry key="H4" value="0.932461305447898" />
+      <entry key="D1" value="0.9884130478528328" />
+      <entry key="W1" value="0.998336441825052" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659363289248455" />
-      <entry key="MS500" value="0.9930925298021106" />
-      <entry key="S2" value="1.0276159260367603" />
-      <entry key="S5" value="1.9727299677799701" />
-      <entry key="S10" value="5.666038554039542" />
-      <entry key="S30" value="24.110660558124614" />
-      <entry key="S60" value="47.496651111749394" />
-      <entry key="M2" value="84.16161558399267" />
-      <entry key="M5" value="156.68417103555998" />
-      <entry key="M10" value="240.49009634179166" />
-      <entry key="M15" value="311.35817974573575" />
-      <entry key="M30" value="457.2540137655148" />
-      <entry key="H1" value="590.2616374694195" />
-      <entry key="H2" value="682.6201303222861" />
-      <entry key="H4" value="737.4099891380371" />
-      <entry key="D1" value="788.2244952695672" />
-      <entry key="W1" value="797.4476070281454" />
+      <entry key="MS100" value="0.03280730850411684" />
+      <entry key="MS500" value="0.6174118186829635" />
+      <entry key="S2" value="2.657987799802487" />
+      <entry key="S5" value="5.578631747164112" />
+      <entry key="S10" value="8.104325536946043" />
+      <entry key="S30" value="18.21403939653314" />
+      <entry key="S60" value="38.24649821249193" />
+      <entry key="M2" value="75.13957185816066" />
+      <entry key="M5" value="151.87953855211427" />
+      <entry key="M10" value="239.28340956736218" />
+      <entry key="M15" value="311.8713158947314" />
+      <entry key="M30" value="460.75494874985907" />
+      <entry key="H1" value="596.7548088069548" />
+      <entry key="H2" value="691.4296438621536" />
+      <entry key="H4" value="747.684998355148" />
+      <entry key="D1" value="799.9169300133748" />
+      <entry key="W1" value="809.4031486550673" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -102,34 +100,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.unit1_discussion.executor": "Run",
-    "Python.unit2_discussion.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.unit1_discussion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unit2_discussion.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Freed\IdeaProjects\cmsc315-discussion" />
@@ -221,6 +219,7 @@
     <MESSAGE value="Finalizing code development to indclude all of the required rubric" />
     <MESSAGE value="Stting up Classes for Stack and Queue" />
     <MESSAGE value="demonstration of stack class" />
-    <option name="LAST_COMMIT_MESSAGE" value="demonstration of stack class" />
+    <MESSAGE value="Answered Reflection Questions in README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answered Reflection Questions in README.md" />
   </component>
 </project>
